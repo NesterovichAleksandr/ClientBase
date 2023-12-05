@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8f18e1b-787b-4ef9-9068-81fa0f29d43a" name="Changes" comment="init">
-      <change afterPath="$PROJECT_DIR$/src/entity/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entity/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entity/product/Honey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entity/product/Honeycomb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entity/product/Product.java" afterDir="false" />
+    <list default="true" id="c8f18e1b-787b-4ef9-9068-81fa0f29d43a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Runner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/product/Honey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/product/Honey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/product/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/product/Product.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,19 +39,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/project/ClientBase",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/project/ClientBase&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -62,6 +62,7 @@
       <updated>1701668824701</updated>
       <workItem from="1701668826299" duration="1203000" />
       <workItem from="1701670132923" duration="886000" />
+      <workItem from="1701751950667" duration="1262000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1701669171730</created>
@@ -70,14 +71,33 @@
       <option name="project" value="LOCAL" />
       <updated>1701669171730</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="добавлены базовые сущности">
+      <created>1701752110281</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1701752110281</updated>
+    </task>
+    <task id="LOCAL-00003" summary="добавлено поле даты откатки для ориентира партии мёда">
+      <created>1701752851812</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1701752851812</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="добавлены базовые сущности" />
+    <MESSAGE value="добавлено поле даты откатки для ориентира партии мёда" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавлено поле даты откатки для ориентира партии мёда" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
