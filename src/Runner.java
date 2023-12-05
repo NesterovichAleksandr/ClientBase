@@ -1,12 +1,23 @@
 import entity.Customer;
 import entity.Order;
 import entity.product.Honey;
+import entity.product.Product;
+
+import java.math.BigDecimal;
+import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Runner {
     public static void main(String[] args) {
-        Honey honey = new Honey();
-        Order order = new Order();
-        Customer customer = new Customer();
+        Honey honey = new Honey(LocalDate.of(2023, 6, 8));
+        List<Product> products = new ArrayList<>();
+        products.add(honey);
+        Order order = new Order(1L, LocalDate.now(), products, BigDecimal.valueOf(20));
+        List<Order> orders = new ArrayList<>();
+        orders.add(order);
+        Customer customer = new Customer("Alex", 375291572087L, orders);
+        System.out.println(customer);
 
 
     }
