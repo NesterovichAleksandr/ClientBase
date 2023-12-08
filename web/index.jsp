@@ -1,4 +1,5 @@
-<%--
+<%@ page import="entity.Customer" %>
+<%@ page import="run.Runner" %><%--
   Created by IntelliJ IDEA.
   User: User
   Date: 07.12.2023
@@ -8,9 +9,9 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-  <title>$Title$</title>
+    <title>$Title$</title>
 </head>
 <body>
-$END$
+<%= Runner.getCustomer().toString() %>
 </body>
 </html>
