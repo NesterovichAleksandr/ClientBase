@@ -4,15 +4,17 @@ import entity.Customer;
 import entity.Order;
 import entity.product.Honey;
 import entity.product.Product;
+import util.database.DB;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 public class Runner {
     public static void main(String[] args) {
-        System.out.println(getCustomer());
+        System.out.println(DB.getStringTable(Objects.requireNonNull(DB.getDataTable("customer"))));
     }
 
     public static Customer getCustomer() {
