@@ -4,14 +4,24 @@ import java.util.List;
 import java.util.Objects;
 
 public class Customer {
+    private Long id;
     private String name;
     private Long phone;
     private List<Order> orders;
 
-    public Customer(String name, Long phone, List<Order> orders) {
+    public Customer(Long id, String name, Long phone, List<Order> orders) {
+        this.id = id;
         this.name = name;
         this.phone = phone;
         this.orders = orders;
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
     }
 
     public String getName() {
@@ -43,18 +53,19 @@ public class Customer {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Customer customer = (Customer) o;
-        return name.equals(customer.name) && Objects.equals(phone, customer.phone) && orders.equals(customer.orders);
+        return Objects.equals(id, customer.id) && Objects.equals(name, customer.name) && Objects.equals(phone, customer.phone) && Objects.equals(orders, customer.orders);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(name, phone, orders);
+        return Objects.hash(id, name, phone, orders);
     }
 
     @Override
     public String toString() {
         return "Customer{" +
-                "name='" + name + '\'' +
+                "id=" + id +
+                ", name='" + name + '\'' +
                 ", phone=" + phone +
                 ", orders=" + orders +
                 '}';

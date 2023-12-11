@@ -22,6 +22,6 @@ public class Runner {
         Order order = new Order(1L, LocalDate.now(), products, BigDecimal.valueOf(20));
         List<Order> orders = new ArrayList<>();
         orders.add(order);
-        return new Customer("Alex", 375291572087L, orders);
+        return new Customer(1L, "Alex", 375291572087L, orders);
     }
 }
