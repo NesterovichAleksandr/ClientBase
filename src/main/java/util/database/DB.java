@@ -13,7 +13,7 @@ public class DB {
             // Register the PostgreSQL JDBC driver
             Class.forName("org.postgresql.Driver");
         } catch (ClassNotFoundException e) {
-            System.out.println("PostgreSQL JDBC Driver is not found. Include it in your library path.");
+            System.err.println("PostgreSQL JDBC Driver is not found. Include it in your library path.");
             e.printStackTrace();
             return null;
         }
