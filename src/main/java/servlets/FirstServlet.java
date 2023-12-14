@@ -4,11 +4,12 @@ import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.HttpSession;
-import run.Runner;
 import util.Util;
+import util.database.DB;
 
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.Objects;
 
 public class FirstServlet extends HttpServlet {
     @Override
@@ -16,7 +17,7 @@ public class FirstServlet extends HttpServlet {
         HttpSession session = req.getSession();
         new Util().count(session);
         PrintWriter writer = resp.getWriter();
-        writer.println(Runner.getCustomer());
+        writer.println(DB.getStringTable(Objects.requireNonNull(DB.getDataTable("customer"))));
         writer.println("count = " + session.getAttribute("count"));
     }
 
