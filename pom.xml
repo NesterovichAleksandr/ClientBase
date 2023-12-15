@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.nesterovich</groupId>
-    <artifactId>ClientBase2</artifactId>
+    <artifactId>ClientBase</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>ClientBase2</name>
-    <description>ClientBase2</description>
+    <name>ClientBase</name>
+    <description>ClientBase</description>
     <properties>
         <java.version>21</java.version>
     </properties>
