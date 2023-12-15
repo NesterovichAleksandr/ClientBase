@@ -1,4 +1,4 @@
-package entity.product;
+package com.nesterovich.clientbase.model.product;
 
 import java.time.LocalDate;
 import java.util.Objects;

@@ -1,13 +1,22 @@
-package entity;
+package com.nesterovich.clientbase.model;
+
+import jakarta.persistence.*;
 
 import java.util.List;
 import java.util.Objects;
 
+@Entity
 public class Customer {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String name;
     private Long phone;
+    @Transient
     private List<Order> orders;
+
+    public Customer() {
+    }
 
     public Customer(Long id, String name, Long phone, List<Order> orders) {
         this.id = id;

@@ -1,6 +1,6 @@
-package entity;
+package com.nesterovich.clientbase.model;
 
-import entity.product.Product;
+import com.nesterovich.clientbase.model.product.Product;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;

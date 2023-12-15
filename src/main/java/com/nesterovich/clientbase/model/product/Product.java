@@ -1,4 +1,4 @@
-package entity.product;
+package com.nesterovich.clientbase.model.product;
 
 import java.math.BigDecimal;
 import java.util.Objects;
