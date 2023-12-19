@@ -1,7 +1,7 @@
 package com.nesterovich.clientbase.controller;
 
-import com.nesterovich.clientbase.model.Customer;
-import com.nesterovich.clientbase.service.CustomerService;
+import com.nesterovich.clientbase.model.entity.Customer;
+import com.nesterovich.clientbase.model.service.CustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

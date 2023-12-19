@@ -1,7 +1,7 @@
-package com.nesterovich.clientbase.service;
+package com.nesterovich.clientbase.model.service;
 
-import com.nesterovich.clientbase.model.Customer;
-import com.nesterovich.clientbase.repository.CustomerRepository;
+import com.nesterovich.clientbase.model.entity.Customer;
+import com.nesterovich.clientbase.model.repository.CustomerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

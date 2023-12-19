@@ -1,6 +1,6 @@
-package com.nesterovich.clientbase.repository;
+package com.nesterovich.clientbase.model.repository;
 
-import com.nesterovich.clientbase.model.Customer;
+import com.nesterovich.clientbase.model.entity.Customer;
 import org.springframework.data.repository.CrudRepository;
 
 public interface CustomerRepository extends CrudRepository<Customer, Long> {
