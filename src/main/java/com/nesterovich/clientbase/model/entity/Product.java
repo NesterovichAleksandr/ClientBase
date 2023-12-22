@@ -20,4 +20,15 @@ public class Product {
     private BigDecimal price;
     @ManyToOne
     private Order order;
+
+    @Override
+    public String toString() {
+        return "Product{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", date=" + date +
+                ", price=" + price +
+                ", order=" + order.getId() +
+                '}';
+    }
 }
